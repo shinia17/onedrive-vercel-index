@@ -17,10 +17,10 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "无忧的仓库",
+  title: "花雪的仓库",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/Material',
+  baseDirectory: '/Share',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -38,14 +38,14 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="#" target="_blank" rel="noopener noreferrer"></a>. Made with ❤ by 无忧.',
+    'Powered by <a href="#" target="_blank" rel="noopener noreferrer"></a>. Made with ❤ by 花雪.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes:  ["/素材库"],
+  protectedRoutes:  ["/端口"],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  //email: 'mailto:00000@gmail.com',
+  //TG群: 'mailto:@huaxuenb',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
