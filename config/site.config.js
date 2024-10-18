@@ -1,3 +1,11 @@
+/*
+ * @Author: Hua Xue soul59778331@gmail.com
+ * @Date: 2024-08-17 16:22:38
+ * @LastEditors: Hua Xue soul59778331@gmail.com
+ * @LastEditTime: 2024-10-18 23:40:55
+ * @FilePath: \onedrive-vercel-index\config\site.config.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /**
  * This file contains the configuration used for customising the website, such as the folder to share,
  * the title, used Google fonts, site icons, contact info, etc.
@@ -42,7 +50,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes:  ["/市场端"],
+  protectedRoutes:  ["/花雪加速器","/作者自用",],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   //TG群: 'mailto:@huaxuenb',
